@@ -38,6 +38,16 @@ class SectionTVC: UIViewController {
 extension SectionTVC : TblViewDelegate{
     func didselect(tbl: UITableView, indexPath: IndexPath) {
         
+        
+        
+        
+        let story = UIStoryboard(name: "EmployeeDetails", bundle: nil)
+        let vc = story.instantiateViewController(withIdentifier: "EmployeeDetails")as! EmployeeDetailsVC
+        
+        var tempArr = Array(newCustomDataSourceDelegate.dict.values)
+        vc.employee = tempArr[indexPath.section][indexPath.row]
+        
+        self.navigationController?.pushViewController(vc, animated: true)
     }
 }
 

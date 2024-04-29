@@ -32,6 +32,9 @@
 		C754ABAF2BC8230C0029ED79 /* login1.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C754ABAE2BC8230C0029ED79 /* login1.storyboard */; };
 		C754ABC32BC827D90029ED79 /* Login1VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C754ABC22BC827D90029ED79 /* Login1VC.swift */; };
 		C754ABC72BC828E80029ED79 /* StackVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C754ABC62BC828E80029ED79 /* StackVC.swift */; };
+		C755B52C2BDF7F1400E720CD /* EmployeeDetailsTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C755B52A2BDF7F1400E720CD /* EmployeeDetailsTVC.swift */; };
+		C755B52D2BDF7F1400E720CD /* EmployeeDetailsTVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = C755B52B2BDF7F1400E720CD /* EmployeeDetailsTVC.xib */; };
+		C755B5372BDF907700E720CD /* EmployeeDataSourceDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C755B5362BDF907700E720CD /* EmployeeDataSourceDelegate.swift */; };
 		C75714A02BDF5C20004E9F31 /* EmployeeDetails.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C757149F2BDF5C20004E9F31 /* EmployeeDetails.storyboard */; };
 		C75714A32BDF5D7A004E9F31 /* EmployeeDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C75714A22BDF5D7A004E9F31 /* EmployeeDetailsVC.swift */; };
 		C75D210E2BC6AAF500213AA4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C75D210D2BC6AAF500213AA4 /* AppDelegate.swift */; };
@@ -109,6 +112,9 @@
 		C754ABAE2BC8230C0029ED79 /* login1.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = login1.storyboard; sourceTree = "<group>"; };
 		C754ABC22BC827D90029ED79 /* Login1VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login1VC.swift; sourceTree = "<group>"; };
 		C754ABC62BC828E80029ED79 /* StackVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackVC.swift; sourceTree = "<group>"; };
+		C755B52A2BDF7F1400E720CD /* EmployeeDetailsTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeDetailsTVC.swift; sourceTree = "<group>"; };
+		C755B52B2BDF7F1400E720CD /* EmployeeDetailsTVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EmployeeDetailsTVC.xib; sourceTree = "<group>"; };
+		C755B5362BDF907700E720CD /* EmployeeDataSourceDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeDataSourceDelegate.swift; sourceTree = "<group>"; };
 		C757149F2BDF5C20004E9F31 /* EmployeeDetails.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = EmployeeDetails.storyboard; sourceTree = "<group>"; };
 		C75714A22BDF5D7A004E9F31 /* EmployeeDetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeDetailsVC.swift; sourceTree = "<group>"; };
 		C75D210A2BC6AAF500213AA4 /* MainApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MainApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -454,10 +460,8 @@
 		C75714922BDF59F6004E9F31 /* EmployeeDetails */ = {
 			isa = PBXGroup;
 			children = (
-				C75714982BDF5A6D004E9F31 /* Model */,
 				C75714972BDF5A5F004E9F31 /* DataSourceDelegate */,
-				C75714962BDF5A4B004E9F31 /* TableCell */,
-				C75714952BDF5A3F004E9F31 /* CollectionCell */,
+				C75714962BDF5A4B004E9F31 /* Cell */,
 				C75714942BDF5A11004E9F31 /* View */,
 				C75714932BDF5A0B004E9F31 /* Controller */,
 			);
@@ -480,32 +484,21 @@
 			path = View;
 			sourceTree = "<group>";
 		};
-		C75714952BDF5A3F004E9F31 /* CollectionCell */ = {
+		C75714962BDF5A4B004E9F31 /* Cell */ = {
 			isa = PBXGroup;
 			children = (
+				C755B52A2BDF7F1400E720CD /* EmployeeDetailsTVC.swift */,
+				C755B52B2BDF7F1400E720CD /* EmployeeDetailsTVC.xib */,
 			);
-			path = CollectionCell;
-			sourceTree = "<group>";
-		};
-		C75714962BDF5A4B004E9F31 /* TableCell */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = TableCell;
+			path = Cell;
 			sourceTree = "<group>";
 		};
 		C75714972BDF5A5F004E9F31 /* DataSourceDelegate */ = {
 			isa = PBXGroup;
 			children = (
+				C755B5362BDF907700E720CD /* EmployeeDataSourceDelegate.swift */,
 			);
 			path = DataSourceDelegate;
-			sourceTree = "<group>";
-		};
-		C75714982BDF5A6D004E9F31 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
 			sourceTree = "<group>";
 		};
 		C75D21012BC6AAF500213AA4 = {
@@ -977,6 +970,7 @@
 				C754AB9F2BC821850029ED79 /* screen3.storyboard in Resources */,
 				C754AB8F2BC81EB00029ED79 /* Storyboard.storyboard in Resources */,
 				C766BC732BD1229C00EF6011 /* SampleCVC.xib in Resources */,
+				C755B52D2BDF7F1400E720CD /* EmployeeDetailsTVC.xib in Resources */,
 				C754ABAF2BC8230C0029ED79 /* login1.storyboard in Resources */,
 				C754AB6A2BC7AB8D0029ED79 /* HelloWorld.storyboard in Resources */,
 				C766BC5F2BD1039B00EF6011 /* CustomTc.xib in Resources */,
@@ -1003,6 +997,7 @@
 				C761F18A2BC8F13D00154703 /* colourAppVC.swift in Sources */,
 				C766BC5E2BD1039B00EF6011 /* CustomTc.swift in Sources */,
 				C71548842BDA1D19004720D0 /* DashboardVC.swift in Sources */,
+				C755B52C2BDF7F1400E720CD /* EmployeeDetailsTVC.swift in Sources */,
 				C766BC722BD1229C00EF6011 /* SampleCVC.swift in Sources */,
 				C71548872BDA1F4C004720D0 /* SideMenuVC.swift in Sources */,
 				C766BC562BD1031700EF6011 /* TblViewDelegate.swift in Sources */,
@@ -1022,6 +1017,7 @@
 				C715488E2BDA2347004720D0 /* SideMenuTVC.swift in Sources */,
 				C761F19E2BC92A6B00154703 /* screensVC.swift in Sources */,
 				C766BC622BD103E300EF6011 /* TableFromJsonVC.swift in Sources */,
+				C755B5372BDF907700E720CD /* EmployeeDataSourceDelegate.swift in Sources */,
 				C76387B62BD63915002B27DC /* DynamicVC.swift in Sources */,
 				C761F1912BC8FDD200154703 /* screen2VC.swift in Sources */,
 				C766BC762BD1237B00EF6011 /* MainDataSourceDelegate.swift in Sources */,
