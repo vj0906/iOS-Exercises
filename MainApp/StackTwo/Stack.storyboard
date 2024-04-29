@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="QyJ-T7-2Oh">
+            <objects>
+                <viewController id="2t9-Cg-zRt" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="dSk-dh-dNf">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mEK-qD-vXk">
+                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="AQH-cw-9ZA">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="245.5"/>
+                                        <color key="backgroundColor" red="1" green="0.39872902630000001" blue="0.2465055585" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="la5-1E-L07">
+                                        <rect key="frame" x="0.0" y="548" width="414" height="270"/>
+                                        <color key="backgroundColor" red="0.79565292600000004" green="0.78065574169999996" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uDh-a0-14b">
+                                        <rect key="frame" x="0.0" y="245.5" width="414" height="327"/>
+                                        <color key="backgroundColor" red="0.50723189120000001" green="0.88890957829999995" blue="0.89842921499999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="uDh-a0-14b" secondAttribute="trailing" id="2oQ-aj-YfM"/>
+                                    <constraint firstItem="uDh-a0-14b" firstAttribute="leading" secondItem="mEK-qD-vXk" secondAttribute="leading" id="5lx-MU-U09"/>
+                                    <constraint firstItem="uDh-a0-14b" firstAttribute="centerY" secondItem="mEK-qD-vXk" secondAttribute="centerY" id="7CU-h0-RsK"/>
+                                    <constraint firstItem="AQH-cw-9ZA" firstAttribute="leading" secondItem="mEK-qD-vXk" secondAttribute="leading" id="8XB-dm-VIr"/>
+                                    <constraint firstItem="AQH-cw-9ZA" firstAttribute="top" secondItem="mEK-qD-vXk" secondAttribute="top" id="9hd-GP-Rz9"/>
+                                    <constraint firstItem="uDh-a0-14b" firstAttribute="centerY" secondItem="mEK-qD-vXk" secondAttribute="centerY" id="H3H-VL-cSA"/>
+                                    <constraint firstItem="uDh-a0-14b" firstAttribute="top" secondItem="la5-1E-L07" secondAttribute="bottom" id="HBe-PR-yvl"/>
+                                    <constraint firstItem="uDh-a0-14b" firstAttribute="top" secondItem="AQH-cw-9ZA" secondAttribute="bottom" id="KhH-av-3yr"/>
+                                    <constraint firstItem="AQH-cw-9ZA" firstAttribute="centerY" secondItem="mEK-qD-vXk" secondAttribute="centerY" multiplier="0.3" id="QMg-Ev-Gxw"/>
+                                    <constraint firstItem="uDh-a0-14b" firstAttribute="centerX" secondItem="mEK-qD-vXk" secondAttribute="centerX" id="Tt2-Eh-1NR"/>
+                                    <constraint firstItem="AQH-cw-9ZA" firstAttribute="centerX" secondItem="mEK-qD-vXk" secondAttribute="centerX" id="VQ3-Xb-VhZ"/>
+                                    <constraint firstAttribute="trailing" secondItem="AQH-cw-9ZA" secondAttribute="trailing" id="fEQ-P9-5kp"/>
+                                    <constraint firstItem="uDh-a0-14b" firstAttribute="centerX" secondItem="mEK-qD-vXk" secondAttribute="centerX" id="w2J-D5-psT"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Nbc-j8-wzy"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Nbc-j8-wzy" firstAttribute="bottom" secondItem="mEK-qD-vXk" secondAttribute="bottom" id="2ic-RZ-sdQ"/>
+                            <constraint firstItem="Nbc-j8-wzy" firstAttribute="trailing" secondItem="mEK-qD-vXk" secondAttribute="trailing" id="89O-JH-Ksy"/>
+                            <constraint firstItem="mEK-qD-vXk" firstAttribute="top" secondItem="Nbc-j8-wzy" secondAttribute="top" id="dWU-ox-vEX"/>
+                            <constraint firstItem="mEK-qD-vXk" firstAttribute="leading" secondItem="Nbc-j8-wzy" secondAttribute="leading" id="uga-q9-ZR6"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Gs1-s7-hM7" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="168" y="147"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

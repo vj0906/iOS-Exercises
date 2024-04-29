@@ -1,0 +1,31 @@
+{
+    "resultflag": 1,
+    "message": "Success message",
+    "StudentList": [
+            {
+                "name": "Viraj",
+                "id":"1",
+                "mark":80,
+                "img" : "Img_1"
+            },
+            {
+                "name": "Prince",
+                "id":"2",
+                "mark":80,
+                "img" : "Img_2"
+            },
+            {
+                "name": "Jay",
+                "id":"3",
+                "mark":80,
+                "img" : "Img_3"
+            },
+            {
+                "name": "Chirag",
+                "id":"4",
+                "mark":80,
+                "img" : "Img_4"
+            }
+           
+        ]
+}
