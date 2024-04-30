@@ -3,7 +3,6 @@
     <device id="retina6_7" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
-        <capability name="Image references" minToolsVersion="12.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -30,9 +29,7 @@
                                                     <constraint firstAttribute="height" constant="40" id="ZVN-fD-Bc6"/>
                                                 </constraints>
                                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                <state key="normal">
-                                                    <imageReference key="image" image="sidebar.left" catalog="system" symbolScale="large"/>
-                                                </state>
+                                                <state key="normal" image="sidebar.left" catalog="system"/>
                                                 <connections>
                                                     <action selector="sideMenuAction:" destination="oq1-CN-hqW" eventType="touchUpInside" id="1aW-Vj-qh9"/>
                                                 </connections>
