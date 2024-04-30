@@ -84,6 +84,7 @@
 		C766BCA12BD161DA00EF6011 /* SectionedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C766BC9F2BD161DA00EF6011 /* SectionedCell.swift */; };
 		C766BCA22BD161DA00EF6011 /* SectionedCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C766BCA02BD161DA00EF6011 /* SectionedCell.xib */; };
 		C78809C42BDA170D00A7AACE /* SideMenu in Frameworks */ = {isa = PBXBuildFile; productRef = C78809C32BDA170D00A7AACE /* SideMenu */; };
+		C7CE8CC42BE10F0B002B89A4 /* temp.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7CE8CC32BE10F0B002B89A4 /* temp.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -165,6 +166,7 @@
 		C766BC9A2BD160F400EF6011 /* SectionTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionTVC.swift; sourceTree = "<group>"; };
 		C766BC9F2BD161DA00EF6011 /* SectionedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionedCell.swift; sourceTree = "<group>"; };
 		C766BCA02BD161DA00EF6011 /* SectionedCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SectionedCell.xib; sourceTree = "<group>"; };
+		C7CE8CC32BE10F0B002B89A4 /* temp.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = temp.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -520,6 +522,7 @@
 		C75D210C2BC6AAF500213AA4 /* MainApp */ = {
 			isa = PBXGroup;
 			children = (
+				C7CE8CC12BE10EF2002B89A4 /* Temp */,
 				C75714922BDF59F6004E9F31 /* EmployeeDetails */,
 				C763FE472BDBD15500937CD1 /* SideMenu */,
 				C763879E2BD61C78002B27DC /* DynamicVC */,
@@ -879,6 +882,14 @@
 			path = cell;
 			sourceTree = "<group>";
 		};
+		C7CE8CC12BE10EF2002B89A4 /* Temp */ = {
+			isa = PBXGroup;
+			children = (
+				C7CE8CC32BE10F0B002B89A4 /* temp.storyboard */,
+			);
+			path = Temp;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -962,6 +973,7 @@
 				C754AB742BC7B7340029ED79 /* Navigation.storyboard in Resources */,
 				C72F77F82BCE3FD100A98BE2 /* CountryTV.storyboard in Resources */,
 				C766BC8D2BD15BC900EF6011 /* Section.storyboard in Resources */,
+				C7CE8CC42BE10F0B002B89A4 /* temp.storyboard in Resources */,
 				C754ABA92BC8227C0029ED79 /* stack.storyboard in Resources */,
 				C76387A32BD61D11002B27DC /* AdvancedTV.storyboard in Resources */,
 				C766BC652BD1046300EF6011 /* TableFromJson.storyboard in Resources */,
